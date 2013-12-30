@@ -126,6 +126,31 @@ none}
     font-weight: bold;
 }
 
+.menu li  ul{
+    position:absolute;
+    z-index:9999;
+    top:95px;
+    left:830px;
+    background-color:#ef6923;;
+    display:none;
+    color:#fff;
+    
+    border-radius:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px;
+}  
+.menu li:hover ul, .menu li.over ul{display:block; transition:1;}
+
+.menu li ul li{
+    display:block;
+    width:150px;
+}
+
+.menu li ul li a {color:#fff;} 
+.menu li ul li a:hover { color:#f1f1f1;}
+
 /* END MENU  */
 
 /* SLIDE  */
