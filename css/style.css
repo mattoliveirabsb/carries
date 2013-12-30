@@ -123,8 +123,33 @@ none}
     color:#ef6923;
     text-transform:uppercase;
     text-decoration:none; 
-    font-weight: bold;
+/*    font-weight: bold;*/
 }
+
+.menu li  ul{
+    position:absolute;
+    z-index:9999;
+    top:95px;
+    left:830px;
+    background-color:#ef6923;;
+    display:none;
+    color:#fff;
+    
+    border-radius:5px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px;
+}  
+.menu li:hover ul, .menu li.over ul{display:block; transition:1;}
+
+.menu li ul li{
+    display:block;
+    width:150px;
+}
+
+.menu li ul li a {color:#fff;} 
+.menu li ul li a:hover { color:#f1f1f1;}
 
 /* END MENU  */
 
@@ -364,4 +389,11 @@ position: relative;
 }
 #cboxTopCenter, #cboxBottomCenter, #cboxMiddleLeft, #cboxMiddleRight, cboxTopLeft, cboxTopRight, cboxBottomLeft, cboxBottomRight {
     background: none !important;
+}
+
+/******** MECANICA DE TRABALHO ***********/
+.animacao {
+    width:800px;
+    height:600px;
+    margin:0 auto;
 }
