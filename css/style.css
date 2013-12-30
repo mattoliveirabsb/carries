@@ -365,3 +365,10 @@ position: relative;
 #cboxTopCenter, #cboxBottomCenter, #cboxMiddleLeft, #cboxMiddleRight, cboxTopLeft, cboxTopRight, cboxBottomLeft, cboxBottomRight {
     background: none !important;
 }
+
+/******** MECANICA DE TRABALHO ***********/
+.animacao {
+    width:800px;
+    height:600px;
+    margin:0 auto;
+}
