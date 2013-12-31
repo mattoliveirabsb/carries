@@ -397,3 +397,38 @@ position: relative;
     height:600px;
     margin:0 auto;
 }
+
+/******** ESPECIALIDADES ***********/
+h2.especialidades { 
+    padding: 0 0 0 0; 
+    margin: 0 0 5px 0; 
+    
+    background:url(../img/especialidades-no-active.jpg);
+    height:62px;
+    line-height: 56px; 
+    width: 100%; 
+    font-size: 28px; 
+    font-weight: normal; 
+    float: left; margin-right:15px; 
+    border-radius:5px;
+} 
+h2.especialidades a { 
+    color: #fff; 
+    text-decoration: none; 
+    display: block; 
+} 
+h2.especialidades a:hover { color: #ccc; } 
+h2.active {background: url(../img/especialidades-active.jpg) ;} /*--When toggle is triggered, it will shift the image to the bottom to show its "opened" state--*/ 
+.toggle_container { 
+    margin: 0 0 5px; 
+    padding: 0; 
+    overflow: hidden; 
+    font-size: 1.2em; 
+    width: 100%; 
+    margin-top:40px;
+    clear: both; 
+} 
+.especialidades_container .block { 
+    padding: 20px; /*--Padding of Container--*/ 
+    background:  no-repeat left bottom; /*--Bottom rounded corners--*/ 
+}
